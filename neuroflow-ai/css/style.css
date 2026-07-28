@@ -93,7 +93,18 @@ body {
 } 
 .btn-secondary {
     border: 2px solid var(--secondary);
-    color: var(--text);
+    color: var(--secondary);
     padding: 12px 24px;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    background: var(--secondary);
+    color: var(--bg);
+}
+.hero-image {
+    width: 50%;
+    background-color: var(--bg-secondary);
+    height: 400px;
 }
